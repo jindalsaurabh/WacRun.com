@@ -11,7 +11,7 @@ const Banner2 = () => {
         <Row className="">
           <Col lg="6" md="6" className="align-self-center">
             <h1 className="title">
-              Build stunning websites with NextJs UI Kit
+              Lets build stunning websites with NextJs UI Kit
             </h1>
             <h4 className="subtitle font-light">
               Free Reactstrap UI Kit with Lots of
