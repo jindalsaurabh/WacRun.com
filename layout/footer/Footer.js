@@ -9,59 +9,77 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Address</h5>
-            <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
+            <h5 className="m-b-20">In-demand talent</h5>
+            <p>React Native</p>
+            <p>Python</p>
+            <p>Front-end Developers</p>
+            <p>Java Developers</p>
+            <p>UX Designers</p>
+            <p>UI Designers</p>
+            <p>Dev Ops</p>
+            <p>Cloud Architects</p>
+
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Phone</h5>
+            <h5 className="m-b-20">About</h5>
             <p>
-              Reception : +205 123 4567 <br />
-              Office : +207 235 7890
+              About Us
             </p>
-          </Col>
-          <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Email</h5>
             <p>
-              Office :
-              <Link href="#">
-                <a className="link">info@wrappixel.com</a>
+              FAQs
+            </p>
+             <p>
+              Blog
+            </p>
+            <p>
+              Careers
+            </p>
+            <p>
+              Email: <Link href="mailto: contact@wacrun.com">
+                <a className="link"> contact@wacrun.com</a>
               </Link>
               <br />
-              Site :
-              <Link href="https://www.wrappixel.com">
-                <a className="link">wrappixel.com</a>
+              Site:
+              <Link href="https://www.wacrun.com">
+                <a className="link"> WacRun.com</a>
               </Link>
             </p>
           </Col>
-          <Col lg="3" md="6">
-            <h5 className="m-b-20">Social</h5>
-            <div className="round-social light">
-              <Link href="#">
-                <a className="link">
-                  <i className="fa fa-facebook"></i>
-                </a>
+          <Col lg="3" md="6" className="m-b-30">
+            <h5 className="m-b-20">Customers</h5>
+            <p>
+              <Link href="https://www.wacrun.com">
+                <a className="link">Hire Developers</a>
               </Link>
-              <Link href="#">
-                <a className="link">
-                  <i className="fa fa-twitter"></i>
-                </a>
+            </p>
+            <p>
+              <Link href="https://www.wacrun.com">
+                <a className="link">Hire Designers</a>
               </Link>
-              <Link href="#">
-                <a className="link">
-                  <i className="fa fa-google-plus"></i>
-                </a>
+            </p>
+            <p>
+              <Link href="https://www.wacrun.com">
+                <a className="link">Hire Project Managers</a>
               </Link>
-              <Link href="#">
-                <a className="link">
-                  <i className="fa fa-youtube-play"></i>
-                </a>
+            </p>
+            <p>
+              <Link href="https://www.wacrun.com">
+                <a className="link">Hire for Specific Skills</a>
               </Link>
-              <Link href="#">
-                <a className="link">
-                  <i className="fa fa-instagram"></i>
-                </a>
+            </p>
+          </Col>
+          <Col lg="3" md="6" className="m-b-30">
+            <h5 className="m-b-20">Freelancers</h5>
+            <p>
+              <Link href="https://www.wacrun.com">
+                <a className="link">Register with WacRun.com</a>
               </Link>
-            </div>
+            </p>
+            <p>
+              <Link href="https://www.wacrun.com">
+                <a className="link">Write for Us</a>
+              </Link>
+            </p>
           </Col>
         </Row>
         <div className="f4-bottom-bar">
@@ -70,8 +88,8 @@ const Footer = () => {
               <div className="d-flex font-14">
                 <div className="m-t-10 m-b-10 copyright">
                   All Rights Reserved by{" "}
-                  <Link href="https://www.wrappixel.com">
-                    <a className="link">wrappixel.com</a>
+                  <Link href="https://www.wacrun.com">
+                    <a className="link">WacRun.com</a>
                   </Link>
                 </div>
                 <div className="links ml-auto m-t-10 m-b-10">

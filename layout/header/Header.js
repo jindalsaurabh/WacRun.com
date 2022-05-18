@@ -37,7 +37,7 @@ const Header = () => {
             >
               <Nav navbar className="ml-auto">
                 <NavItem>
-                  <Link href="/">
+                  <Link href="https://iridescent-madeleine-71c70d.netlify.app/">
                     <a
                       className={
                         router.pathname == "/"
@@ -45,12 +45,12 @@ const Header = () => {
                           : "nav-link"
                       }
                     >
-                      Custom Components
+                      Hire Tech Talent
                     </a>
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="/basic">
+                  <Link href="https://iridescent-madeleine-71c70d.netlify.app/">
                     <a
                       className={
                         router.pathname == "/basic"
@@ -58,18 +58,18 @@ const Header = () => {
                           : "nav-link"
                       }
                     >
-                      Basic-Components
+                      Register as a freelancer
                     </a>
                   </Link>
                 </NavItem>
               </Nav>
               <div className="act-buttons">
                 <NavLink
-                  href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
+                  href="https://iridescent-madeleine-71c70d.netlify.app/"
                   className="btn btn-light font-14"
                   target="_blank"
                 >
-                  Download Free
+                  Hire Tech Talent
                 </NavLink>
               </div>
             </Collapse>

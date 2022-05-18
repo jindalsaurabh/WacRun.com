@@ -11,21 +11,20 @@ const Banner2 = () => {
         <Row className="">
           <Col lg="6" md="6" className="align-self-center">
             <h1 className="title">
-              Lets build stunning websites with NextJs UI Kit
+              Hire the best remote developers and designers
             </h1>
             <h4 className="subtitle font-light">
-              Free Reactstrap UI Kit with Lots of
-              <br /> Ready to Use Sections
+              At a cost and speed which suits you !
             </h4>
             <a
-              href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
+              href="https://wacrun-customer-requirement.netlify.app/"
               className="btn btn-danger m-r-20 btn-md m-t-30 "
             >
-              Download Free
+              Hire Talent
             </a>
             <Link href="/#coming">
               <a className="btn btn-md m-t-30  btn-outline-light ">
-                Upgrade To Pro
+                Register as a freelancer
               </a>
             </Link>
           </Col>

@@ -1,14 +1,17 @@
 import Head from "next/head";
 import CustomComponents from "../components/custom/Custom-components";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Home() {
+  const { t } = useTranslation("common");
+
   return (
     <div>
       <Head>
-        <title>NextJs UI kit | Free UI kit built with bootstrap</title>
+        <title>{t("common:title")}</title>
         <meta
           name="description"
-          content="NextJs UI kit | Free UI kit built with bootstrap"
+          content="WacRun - Hire developers and designers"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
