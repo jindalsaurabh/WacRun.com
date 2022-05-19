@@ -73,7 +73,7 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">{t("common:Freelancers")}</h5>
             <p>
-              <Link href="https://www.wacrun.com">
+              <Link href="https://forms.gle/qTeoGsZjqk3kS9c48">
                 <a className="link">{t("common:RegisterWithWR")}</a>
               </Link>
             </p>

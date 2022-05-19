@@ -52,7 +52,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="https://clients.wacrun.com/">
+                  <Link href="https://forms.gle/qTeoGsZjqk3kS9c48">
                     <a
                       className={
                         router.pathname == "/basic"

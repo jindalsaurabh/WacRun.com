@@ -24,7 +24,7 @@ const Banner2 = () => {
             >
               {t("common:HireTalent")}
             </a>
-            <Link href="/#coming">
+            <Link href="https://forms.gle/qTeoGsZjqk3kS9c48">
               <a className="btn btn-md m-t-30  btn-outline-light ">
               {t("common:FreelancerRegn")}
               </a>
