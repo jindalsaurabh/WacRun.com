@@ -2,14 +2,16 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
+import useTranslation from "next-translate/useTranslation";
 
 const Footer = () => {
+  const { t } = useTranslation("common");
   return (
     <div className="footer4 b-t spacer">
       <Container>
         <Row>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">In-demand talent</h5>
+            <h5 className="m-b-20"> {t("common:InDemandTalent")}</h5>
             <p>React Native</p>
             <p>Python</p>
             <p>Front-end Developers</p>
@@ -21,18 +23,18 @@ const Footer = () => {
 
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">About</h5>
+            <h5 className="m-b-20">{t("common:About")}</h5>
             <p>
-              About Us
+              {t("common:AboutUs")}
             </p>
             <p>
-              FAQs
+              {t("common:FAQs")}
             </p>
              <p>
-              Blog
+              {t("common:Blog")}
             </p>
             <p>
-              Careers
+              {t("common:Careers")}
             </p>
             <p>
               Email: <Link href="mailto: contact@wacrun.com">
@@ -46,38 +48,38 @@ const Footer = () => {
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Customers</h5>
+            <h5 className="m-b-20">{t("common:Customers")}</h5>
             <p>
-              <Link href="https://www.wacrun.com">
-                <a className="link">Hire Developers</a>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">{t("common:HireDevelopers")}</a>
               </Link>
             </p>
             <p>
-              <Link href="https://www.wacrun.com">
-                <a className="link">Hire Designers</a>
+              <Link href="https://www.clients.wacrun.com">
+                <a className="link">{t("common:HireDesigners")}</a>
               </Link>
             </p>
             <p>
-              <Link href="https://www.wacrun.com">
-                <a className="link">Hire Project Managers</a>
+              <Link href="https://www.clients.wacrun.com">
+                <a className="link">{t("common:HireProjectManagers")}</a>
               </Link>
             </p>
             <p>
-              <Link href="https://www.wacrun.com">
-                <a className="link">Hire for Specific Skills</a>
+              <Link href="https://www.clients.wacrun.com">
+                <a className="link">{t("common:HireSpecificSkills")}Hire for Specific Skills</a>
               </Link>
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Freelancers</h5>
+            <h5 className="m-b-20">{t("common:Freelancers")}</h5>
             <p>
               <Link href="https://www.wacrun.com">
-                <a className="link">Register with WacRun.com</a>
+                <a className="link">{t("common:RegisterWithWR")}</a>
               </Link>
             </p>
             <p>
               <Link href="https://www.wacrun.com">
-                <a className="link">Write for Us</a>
+                <a className="link">{t("common:WriteforUs")}</a>
               </Link>
             </p>
           </Col>
@@ -87,20 +89,20 @@ const Footer = () => {
             <Col md="12">
               <div className="d-flex font-14">
                 <div className="m-t-10 m-b-10 copyright">
-                  All Rights Reserved by{" "}
+                  {t("common:RightsReserved")}
                   <Link href="https://www.wacrun.com">
                     <a className="link">WacRun.com</a>
                   </Link>
                 </div>
                 <div className="links ml-auto m-t-10 m-b-10">
                   <Link href="#">
-                    <a className="p-10 p-l-0">Terms of Use</a>
+                    <a className="p-10 p-l-0">{t("common:TermsofUse")}</a>
                   </Link>
                   <Link href="#">
-                    <a className="p-10">Legal Disclaimer</a>
+                    <a className="p-10">{t("common:LegalDisclaimer")}</a>
                   </Link>
-                  <Link href="#">
-                    <a className="p-10">Privacy Policy</a>
+                  <Link href="https://docs.google.com/document/d/1HqeGV9gtTjx5L7HBoR7TmYeatd53ddRp/edit?usp=sharing&ouid=109846037597811595449&rtpof=true&sd=true">
+                    <a className="p-10">{t("common:PrivacyPolicy")}</a>
                   </Link>
                 </div>
               </div>

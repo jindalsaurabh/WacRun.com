@@ -7,18 +7,20 @@ import ProjectManagement from "../../../assets/images/features/feature13/Project
 import SoftwareDeveloper from "../../../assets/images/features/feature13/SoftwareDeveloper.jpeg";
 import SpecificRequirement from "../../../assets/images/features/feature13/SpecificRequirement.png";
 import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
+import useTranslation from "next-translate/useTranslation";
 
 const FeatureComponent = () => {
+  const { t } = useTranslation("common");
   return (
     <div>
       <div className="feature4">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h2 className="title">Perfect talent at the perfect price</h2>
-              <h6 className="subtitle">
-                Choose from a pre-vetted list of the best talent.
 
+              <h2 className="title">{t("common:featurecomponenttitle")}</h2>
+              <h6 className="subtitle">
+                {t("common:featurecomponentsubtitle")}
               </h6>
 
             </Col>
@@ -30,10 +32,9 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-star"></i>
                   </div>
-                  <h5 className="font-medium">High quality of talent</h5>
+                  <h5 className="font-medium">{t("common:whyUs1")}</h5>
                   <p className="m-t-20">
-                    Our talent is tsted against multiple parameters to ensure high technical ability, communication skills, rich work experience and motivation.
-
+                    {t("common:whyUs1SubText")}
                   </p>
                 </CardBody>
               </Card>
@@ -44,9 +45,9 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-signal"></i>
                   </div>
-                  <h5 className="font-medium">Hire rapidly</h5>
+                  <h5 className="font-medium">{t("common:whyUs2")}</h5>
                   <p className="m-t-20">
-                    Speed up your hiring process. Scale up or down as per the needs of your project. Flexible engagements -  hourly or full time,no strings attached.
+                    {t("common:whyUs2SubText")}
                   </p>
                 </CardBody>
               </Card>
@@ -58,9 +59,9 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-check-circle"></i>
                   </div>
-                  <h5 className="font-medium">Economical and cost effective </h5>
+                  <h5 className="font-medium">{t("common:whyUs3")}</h5>
                   <p className="m-t-20">
-                    Choose the rates which suit you. We have talent to offer at your price point.(Need more content)
+                    {t("common:whyUs3SubText")}
                   </p>
                 </CardBody>
               </Card>
@@ -71,9 +72,9 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-flag"></i>
                   </div>
-                  <h5 className="font-medium">Leverage the advantages of remote work methodology </h5>
+                  <h5 className="font-medium">{t("common:whyUs4")}</h5>
                   <p className="m-t-20">
-                     Get a pre-vetted list of candidates to select from all across the world. Ensure continuity in processes without worrying about geographical constraints.(Need more)
+                     {t("common:whyUs4SubText")}
                   </p>
                 </CardBody>
               </Card>
@@ -86,7 +87,7 @@ const FeatureComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h2 className="title">Get world class talent which delivers results </h2>
+              <h2 className="title">{t("common:featurecomponentsecondtitle")}</h2>
             </Col>
           </Row>
           <Row className="wrap-feature-20">
@@ -105,16 +106,16 @@ const FeatureComponent = () => {
                         />
                       </div>
                       <div>
-                        <h3 className="font-medium">Developers</h3>
+                        <h3 className="font-medium">{t("common:role1")}</h3>
                         <h6 className="font-small">
-              Software engineers with expertise across technologies !
+              {t("common:role1Description")}
             </h6>
                       </div>
                     </CardBody>
                   </Col>
                   {/*
                   <Col md="4" className="text-center">
-                    <a href="https://iridescent-madeleine-71c70d.netlify.app/" className="text-white linking bg-info">
+                    <a href="https://clients.wacrun.com/" className="text-white linking bg-info">
                       Lets Talk <i className="ti-arrow-right"></i>
                     </a>
                   </Col>
@@ -137,16 +138,16 @@ const FeatureComponent = () => {
                         />
                       </div>
                     <div>
-                        <h3 className="font-medium">Designers</h3>
+                        <h3 className="font-medium">{t("common:role2")}</h3>
                         <h6 className="font-small">
-              Experts with skills in UI/UX, Visual, & Interaction design !
-            </h6>
+                          {t("common:role2Description")}
+                        </h6>
                       </div>
                     </CardBody>
                   </Col>
                   {/*
                   <Col md="4" className="text-center">
-                    <a href="https://iridescent-madeleine-71c70d.netlify.app/" className="text-white linking bg-info">
+                    <a href="https://clients.wacrun.com/" className="text-white className="text-white linking bg-info">
                       Lets Talk <i className="ti-arrow-right"></i>
                     </a>
                   </Col>
@@ -169,16 +170,16 @@ const FeatureComponent = () => {
                         />
                       </div>
                     <div>
-                        <h3 className="font-medium">Project Management</h3>
+                        <h3 className="font-medium">{t("common:role3")}</h3>
                         <h6 className="font-small">
-              Digital, Technical Project Managers and scrum masters.
+              {t("common:role3Description")}
             </h6>
                       </div>
                     </CardBody>
                   </Col>
                   {/*
                   <Col md="4" className="text-center">
-                    <a href="https://iridescent-madeleine-71c70d.netlify.app/" className="text-white linking bg-info">
+                    <a href="https://clients.wacrun.com/" className="text-white  className="text-white linking bg-info">
                       Lets Talk <i className="ti-arrow-right"></i>
                     </a>
                   </Col>
@@ -201,16 +202,16 @@ const FeatureComponent = () => {
                         />
                       </div>
                       <div>
-                         <h3 className="font-medium">Specific Requirements</h3>
+                         <h3 className="font-medium">{t("common:role4")}</h3>
                         <h6 className="font-small">
-              Special skills, custom requirements, flexible engagements.
+              {t("common:role4Description")}
             </h6>
                       </div>
                     </CardBody>
                   </Col>
                   {/*
                   <Col md="4" className="text-center">
-                    <a href="https://iridescent-madeleine-71c70d.netlify.app/" className="text-white linking bg-info">
+                    <a href="https://clients.wacrun.com/" className="text-white className="text-white linking bg-info">
                       Lets Talk <i className="ti-arrow-right"></i>
                     </a>
                   </Col>

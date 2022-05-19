@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import useTranslation from "next-translate/useTranslation";
 import {
   Collapse,
   Navbar,
@@ -15,6 +16,7 @@ import {
 import logo from "../../assets/images/logos/white-text.png";
 
 const Header = () => {
+  const { t } = useTranslation("common");
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
   const toggle = () => setIsOpen(!isOpen);
@@ -37,7 +39,7 @@ const Header = () => {
             >
               <Nav navbar className="ml-auto">
                 <NavItem>
-                  <Link href="https://iridescent-madeleine-71c70d.netlify.app/">
+                  <Link href="https://clients.wacrun.com/">
                     <a
                       className={
                         router.pathname == "/"
@@ -45,12 +47,12 @@ const Header = () => {
                           : "nav-link"
                       }
                     >
-                      Hire Tech Talent
+                      {t("common:HireTalent")}
                     </a>
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="https://iridescent-madeleine-71c70d.netlify.app/">
+                  <Link href="https://clients.wacrun.com/">
                     <a
                       className={
                         router.pathname == "/basic"
@@ -58,18 +60,18 @@ const Header = () => {
                           : "nav-link"
                       }
                     >
-                      Register as a freelancer
+                      {t("common:FreelancerRegn")}
                     </a>
                   </Link>
                 </NavItem>
               </Nav>
               <div className="act-buttons">
                 <NavLink
-                  href="https://iridescent-madeleine-71c70d.netlify.app/"
+                  href="https://clients.wacrun.com/"
                   className="btn btn-light font-14"
                   target="_blank"
                 >
-                  Hire Tech Talent
+                  {t("common:HireTalent")}
                 </NavLink>
               </div>
             </Collapse>
