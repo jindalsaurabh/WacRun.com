@@ -14,6 +14,7 @@ import {
   NavLink,
 } from "reactstrap";
 import logo from "../../assets/images/logos/white-text.png";
+import WACRunlogo from "../../assets/images/logos/WacRunlogo.png";
 
 const Header = () => {
   const { t } = useTranslation("common");
@@ -25,8 +26,8 @@ const Header = () => {
       <div className="header6">
         <Container className="po-relative">
           <Navbar className="navbar-expand-lg h6-nav-bar">
-            <NavbarBrand href="/">
-              <Image src={logo} alt="wrapkit" />
+            <NavbarBrand href="https://WacRun.com">
+              <Image class="logo" src={WACRunlogo} alt="WACRun" />
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu"></span>
