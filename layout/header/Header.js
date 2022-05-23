@@ -72,7 +72,7 @@ const Header = () => {
                   className="btn btn-light font-14"
                   target="_blank"
                 >
-                  {t("common:HireTalent")}
+                  French
                 </NavLink>
               </div>
             </Collapse>
