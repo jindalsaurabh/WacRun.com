@@ -18,7 +18,6 @@ const FooterComponent = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">WacRun Developers</h5>
             <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
-            <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Phone</h5>
@@ -36,7 +35,7 @@ const FooterComponent = () => {
               <br />
               Site :
               <Link href="https://www.wacrun.com">
-                <a className="link">wrappixel.com</a>
+                <a className="link">wacrun.com</a>
               </Link>
             </p>
           </Col>

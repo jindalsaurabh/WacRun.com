@@ -17,8 +17,6 @@ import logo from "../../assets/images/logos/white-text.png";
 import WACRunlogo from "../../assets/images/logos/WacRunlogo.png";
 
 const Header = () => {
-  const [language, setLanguage] = useState('en');
-
   const { t } = useTranslation("common");
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
@@ -67,23 +65,16 @@ const Header = () => {
                     </a>
                   </Link>
                 </NavItem>
-                <NavItem>
-
-                  <ul>
-
-          {router.locales.map((locale) => (
-
-    <li key={locale}>
-              <Link href={router.asPath} locale={locale}>
-                <a className={"text-white"}>{locale}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
-
-                </NavItem>
               </Nav>
-
+              <div className="act-buttons">
+                <NavLink
+                  href="https://clients.wacrun.com/"
+                  className="btn btn-light font-14"
+                  target="_blank"
+                >
+                  French
+                </NavLink>
+              </div>
             </Collapse>
           </Navbar>
         </Container>

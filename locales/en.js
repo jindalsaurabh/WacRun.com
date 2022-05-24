@@ -1,4 +1,4 @@
-{
+export default {
 	"title": "WacRun - Hire developers and designers",
 	"description": "WacRun - Hire developers et designers",
 	"banner2title": "Hire the best remote developers and designers",
@@ -12,9 +12,9 @@
 	"whyUs2": "Hire rapidly",
 	"whyUs2SubText": "Speed up your hiring process. Scale up or down as per the needs of your project. Flexible engagements - hourly or full time,no strings attached.",
 	"whyUs3": "Economical and cost effective",
-	"whyUs3SubText": "Choose the rates which suit you. We have talent to offer at your price point.",
+	"whyUs3SubText": "Choose the rates which suit you. We have talent to offer at your price point.(Need more content)",
 	"whyUs4": "Leverage the advantages of remote work methodology",
-	"whyUs4SubText": "Get a pre-vetted list of candidates to select from all across the world. Ensure continuity in processes without worrying about geographical constraints.",
+	"whyUs4SubText": "Get a pre-vetted list of candidates to select from all across the world. Ensure continuity in processes without worrying about geographical constraints.(Need more)",
 	"featurecomponentsecondtitle": "Get world class talent which delivers results",
 	"role1": "Developers",
 	"role1Description": "Software engineers with expertise across technologies !",
@@ -43,4 +43,4 @@
 	"HireSpecificSkills": "Hire for Specific Skills",
 	"RegisterWithWR": "Register With WacRun.com",
 	"WriteforUs": "Write for Us"
-}
+};

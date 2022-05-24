@@ -72,10 +72,10 @@ const ContactComponent = () => {
                 </Col>
                 <Col lg="4">
                   <div className="detail-box p-40 bg-info">
-                    <h2 className="text-white">Wrappixel Headquarters</h2>
+                    <h2 className="text-white">WacRun</h2>
                     <p className="text-white m-t-30 op-8">
                       251 546 9442
-                      <br /> info@wrappixel.com
+                      <br /> contact@wacrun.com
                     </p>
                     <p className="text-white op-8">
                       601 Sherwood Ave.

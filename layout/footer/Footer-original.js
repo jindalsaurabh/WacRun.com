@@ -28,7 +28,7 @@ const Footer = () => {
               <br />
               Site :
               <Link href="https://www.wacrun.com">
-                <a className="link">wrappixel.com</a>
+                <a className="link">WacRun.com</a>
               </Link>
             </p>
           </Col>

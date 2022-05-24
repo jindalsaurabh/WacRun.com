@@ -25,11 +25,7 @@ const BlogComponent = () => {
             <Col lg="4" md="6">
               <Card>
                 <a href="#">
-                  <Image
-                    className="card-img-top"
-                    src={img1}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img1} alt="WacRun.com" />
                 </a>
                 <div className="date-pos bg-info-gradiant">
                   Oct<span>23</span>
@@ -50,11 +46,7 @@ const BlogComponent = () => {
             <Col lg="4" md="6">
               <Card>
                 <a href="#">
-                  <Image
-                    className="card-img-top"
-                    src={img2}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img2} alt="WacRun.com" />
                 </a>
                 <div className="date-pos bg-info-gradiant">
                   Oct<span>23</span>
@@ -75,11 +67,7 @@ const BlogComponent = () => {
             <Col lg="4" md="6">
               <Card>
                 <a href="#">
-                  <Image
-                    className="card-img-top"
-                    src={img3}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img3} alt="WacRun.com" />
                 </a>
                 <div className="date-pos bg-info-gradiant">
                   Oct<span>23</span>

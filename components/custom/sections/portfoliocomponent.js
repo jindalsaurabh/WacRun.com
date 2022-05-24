@@ -42,11 +42,7 @@ const PortfolioComponent = () => {
             <Col md="4">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img1}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img1} alt="WacRun.com" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">
@@ -59,11 +55,7 @@ const PortfolioComponent = () => {
             <Col md="4">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img2}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img2} alt="WacRun.com" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Button Designs Free</h5>
@@ -74,11 +66,7 @@ const PortfolioComponent = () => {
             <Col md="4">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img3}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img3} alt="WacRun.com" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Branding & Co Agency</h5>
@@ -89,11 +77,7 @@ const PortfolioComponent = () => {
             <Col md="4">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img4}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img4} alt="WacRun.com" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Zukandre Phoniex</h5>
@@ -104,11 +88,7 @@ const PortfolioComponent = () => {
             <Col md="4">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img5}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img5} alt="WacRun.com" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Sionage Mokcup</h5>
@@ -119,11 +99,7 @@ const PortfolioComponent = () => {
             <Col md="4">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img6}
-                    alt="wrappixel kit"
-                  />
+                  <Image className="card-img-top" src={img6} alt="WacRun.com" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Hard Cover Book Mock</h5>
