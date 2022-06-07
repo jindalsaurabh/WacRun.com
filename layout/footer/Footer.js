@@ -30,6 +30,11 @@ const Footer = () => {
             <p>
               {t("common:FAQs")}
             </p>
+            <p>
+              <Link href="https://clients.wacrun.com">
+                <a className="link">{t("common:FAQs")}</a>
+              </Link>
+            </p>
              <p>
               {t("common:Blog")}
             </p>
@@ -66,7 +71,7 @@ const Footer = () => {
             </p>
             <p>
               <Link href="https://www.clients.wacrun.com">
-                <a className="link">{t("common:HireSpecificSkills")}Hire for Specific Skills</a>
+                <a className="link">{t("common:HireSpecificSkills")}</a>
               </Link>
             </p>
           </Col>

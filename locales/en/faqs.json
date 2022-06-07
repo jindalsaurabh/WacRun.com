@@ -1,0 +1,55 @@
+{
+"TitleFAQs": "FAQS - WacRun",
+"DescriptionFAQs": "FAQs for WacRun.com",
+
+"FrequentlyAskedQuestionsForClients": "Frequently Asked Questions for Clients",
+"AreThereAnyUpfrontCosts": "Are there any upfront costs",
+"AreThereAnyUpfrontCosts-answer": "There are no costs during the hiring process.",
+"AreThereAnyUpfrontCosts-subanswer": "Before a contract starts, we would require an initial deposit of €500, that will be applied as a credit to your first invoice if you make a hire. If you decide not to move forward(say after the free trial period), your deposit will be refunded completely.",
+
+"DoYouProvideaFreeTrial": "Do you provide a free trial",
+"DoYouProvideaFreeTrial-answer": "Yes, there is a free trial period of one-week (7 days), which commences from the moment the contractor starts working on your project. The free trial helps you to:",
+"DoYouProvideaFreeTrial-answer1": "a) Understand the contractor and your working relationship in a better way.",
+"DoYouProvideaFreeTrial-answer2": "b) Ensure that remote engagement is successful for you.",
+"DoYouProvideaFreeTrial-answer3": "If you are not happy with the contractor during the trial period, you won't be billed.",
+"DoYouProvideaFreeTrial-answer4": "a) If you want, we can refund your initial deposit.",
+"DoYouProvideaFreeTrial-answer5": "b) Or, provide another contractor who might be a better fit. In this case, the trial period (of 7 days) will begin afresh.",
+
+"HowisWacRunDifferent": "How is WacRun different",
+"HowisWacRunDifferent-answer1": "a) We work specifically to work the requirements of French companies. As such we understand the French ecosystem, and the specific needs and requirements of companies here - both from a talent as well as fit perspective.",
+"HowisWacRunDifferent-answer2": "b) We vet our candidates through extensive screening processes and make sure that you get the best talent to work on your projects. All of our contractors have work experience of multi-years, having worked with major companies across the globe.",
+"HowisWacRunDifferent-answer3": "c) We screen our contractors for tech skills, domain knowledge, communication skills, team skills and expertise with remote-working.",
+"HowisWacRunDifferent-answer4": "d) Our screening processes involve portfolio reviews, technical coding challenges, technical and and business case challenges, as well as live problem-solving sessions as appropriate to the candidate and vertical.",
+"HowisWacRunDifferent-answer5": "We conduct at-least 2-3 face-to-face interview with all the contractors, to further check on their knowledge, expertise and skill levels.",
+
+"DoContractorsSpeakOrWriteFrench": "Do your contractors speak/write French",
+"DoContractorsSpeakOrWriteFrench-answer": "Probably no, though each and every one of them speaks and writes fluent English. We do provide French language and culture trainings, and while some contractors keep building on the language skills, but it is hard for them to be at the daily-conversation levels in French language.",
+
+"Whererethecontractorslocated": "Where are the contractors located",
+"Whererethecontractorslocated-answer": "Currently, we have contractors and experts in India. They work remotely from their home office or a co-working space.",
+
+"Whathappensifthecontractorgoesmissing": "What happens if the contractor goes missing - is unavailable for the days or times when they are scheduled to work with us",
+"Whathappensifthecontractorgoesmissing-answer": "We understand that dependability is of the highest importance. We go to every possible length to ensure that such incidents do not happen.",
+"Whathappensifthecontractorgoesmissing-answer1": "a) First of all, WacRun conducts a through screening and vetting process to make sure that only the more responsible and diligent contractors work on your projects.",
+"Whathappensifthecontractorgoesmissing-answer2": "b) We have regular client as well as contractor interactions to make sure that both parties are on the same page and there is no surprise element in store.",
+"Whathappensifthecontractorgoesmissing-answer3": "c) However, in the extremely unlikely circumstance that such a situation arises, WacRun will credit back the time billed to the client during the absence of the contractor.",
+
+"Legalrightstotheworkcreated": "Who owns the legal rights to the work created by a WacRun contractor",
+"Legalrightstotheworkcreated-answer": "All legal rights to the work and resources created during the project duration are owned by the client.",
+"Legalrightstotheworkcreated-answer1": " WacRun's mission is to connect world-class experts to clients and fulfill their requirements. Our legal contracts state that all work created by a WacRun expert is the property of the client, not WacRun or the contractor.",
+
+"HowOftenChargedPaymentsInvoicesHandled": "How often will I be charged? How are payments and invoices handled",
+"HowOftenChargedPaymentsInvoicesHandled-answer1": "We invoice our clients twice a month. The invoices would be sent to the person with whom the contract was signed. If needed, other relevant people, as mandated, can be added to the recipients list for the invoices.",
+"HowOftenChargedPaymentsInvoicesHandled-answer2": "Clients have a time period of 10 days to make the payments, upon the receipt of the invoice. We currently accept all major credit cards as well as bank transfers.",
+
+"HireFullTimeWorker": "Can I hire a full-time worker from WacRun and bring him/her into our company",
+"HireFullTimeWorker-answer": "Yes. We will work with you to fully understand your specific requirements so that we can establish a mutually beneficial arrangement.",
+
+"BringContractorsOnsite": "Can I bring the contractors on-site",
+"BringContractorsOnsite-answer": "If this is a requirement and there is an agreement with the contractor, we can work with you to coordinate relocating an individual or team to your location for a specified period of time.",
+
+"FurtherQuestions":"I have further questions, whom can I contact",
+"FurtherQuestions-answer1": "We would love to answer all your queries and make you as comfortable as possible. Please write to us at:",
+"FurtherQuestions-answer2": "contact@WacRun.com !"
+
+}
