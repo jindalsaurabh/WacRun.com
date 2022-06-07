@@ -28,10 +28,7 @@ const Footer = () => {
               {t("common:AboutUs")}
             </p>
             <p>
-              {t("common:FAQs")}
-            </p>
-            <p>
-              <Link href="https://clients.wacrun.com">
+              <Link href="https://wacrun.com/faqs">
                 <a className="link">{t("common:FAQs")}</a>
               </Link>
             </p>
