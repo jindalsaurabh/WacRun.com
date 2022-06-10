@@ -28,7 +28,7 @@ const Footer = () => {
               {t("common:AboutUs")}
             </p>
             <p>
-              <Link href="https://wacrun.com/faqs">
+              <Link href="/faqs">
                 <a className="link">{t("common:FAQs")}</a>
               </Link>
             </p>
@@ -44,7 +44,7 @@ const Footer = () => {
               </Link>
               <br />
               Site:
-              <Link href="https://www.wacrun.com">
+              <Link href="/">
                 <a className="link"> WacRun.com</a>
               </Link>
             </p>
@@ -92,7 +92,7 @@ const Footer = () => {
               <div className="d-flex font-14">
                 <div className="m-t-10 m-b-10 copyright">
                   {t("common:RightsReserved")}
-                  <Link href="https://www.wacrun.com">
+                  <Link href="/">
                     <a className="link">WacRun.com</a>
                   </Link>
                 </div>

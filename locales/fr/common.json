@@ -43,5 +43,9 @@
 	"HireSpecificSkills": "Embaucher pour des compétences spécifiques",
 	"RegisterWithWR": "S'inscrire avec WacRun.com",
 	"WriteforUs": "Écrire pour nous",
-	"FrequentlyAskedQuestions": "FAQS-FR"
+	"FrequentlyAskedQuestions": "FAQs-WacRun",
+	"404Error": "La page que vous recherchez n'est pas disponible. Veuillez retourner à la page d'accueil.",
+	"404PagenotFound": "404 - Page non trouvée",
+	"404ErrorTitle": "404 - Erreur",
+	"BacktoHomepage": "Retour à la page d'accueil"
 }

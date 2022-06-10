@@ -42,5 +42,9 @@
 	"HireProjectManagers": "Hire Project Managers",
 	"HireSpecificSkills": "Hire for Specific Skills",
 	"RegisterWithWR": "Register With WacRun.com",
-	"WriteforUs": "Write for Us"
+	"WriteforUs": "Write for Us",
+	"404Error": "The page you are looking for is not available. Please go back to homepage.",
+	"404PagenotFound": "404 - Page not Found",
+	"404ErrorTitle": "404 - Error",
+	"BacktoHomepage": "Back to Homepage"
 }
