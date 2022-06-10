@@ -18,6 +18,8 @@ import WACRunlogo from "../../assets/images/logos/WacRunlogo.png";
 
 const Header = () => {
   const [language, setLanguage] = useState('en');
+const { locale: activeLocale, locales, asPath } = useRouter();
+  const availableLocales = locales.filter(locale => locale !== activeLocale);
 
   const { t } = useTranslation("common");
   const [isOpen, setIsOpen] = useState(false);
@@ -69,10 +71,23 @@ const Header = () => {
                 </NavItem>
                 <NavItem>
 
+        <ul className={"text-white"}>
+          {availableLocales.map(locale => {
+            return (
+              <li key={locale}>
+                <Link href={asPath} locale={locale}>
+                  <a className={"text-white"}>
+                    { locale.toUpperCase() }
+                  </a>
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+
+{/*
                   <ul>
-
           {router.locales.map((locale) => (
-
     <li key={locale}>
               <Link href={router.asPath} locale={locale}>
                 <a className={"text-white"}>{locale}</a>
@@ -80,7 +95,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-
+          */}
                 </NavItem>
               </Nav>
 

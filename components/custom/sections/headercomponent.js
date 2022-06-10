@@ -31,7 +31,7 @@ const HeaderComponent = () => {
         <Container>
           <Navbar className="navbar-expand-lg h2-nav">
             <NavbarBrand href="#">
-              <Image src={logo2} alt="wrapkit" />
+              <Image src={logo2} alt="wacRun" />
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu text-white"></span>
