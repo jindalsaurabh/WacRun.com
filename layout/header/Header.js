@@ -30,7 +30,7 @@ const { locale: activeLocale, locales, asPath } = useRouter();
       <div className="header6">
         <Container className="po-relative">
           <Navbar className="navbar-expand-lg h6-nav-bar">
-            <NavbarBrand href="https://WacRun.com">
+            <NavbarBrand href="/">
               <Image class="logo" src={WACRunlogo} alt="WACRun" />
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
