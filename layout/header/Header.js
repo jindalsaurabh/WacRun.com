@@ -17,7 +17,9 @@ import logo from "../../assets/images/logos/white-text.png";
 import WACRunlogo from "../../assets/images/logos/WacRunlogo.png";
 
 const Header = () => {
+ {/*
   const [language, setLanguage] = useState('en');
+*/}
 const { locale: activeLocale, locales, asPath } = useRouter();
   const availableLocales = locales.filter(locale => locale !== activeLocale);
 
@@ -98,7 +100,6 @@ const { locale: activeLocale, locales, asPath } = useRouter();
           */}
                 </NavItem>
               </Nav>
-
             </Collapse>
           </Navbar>
         </Container>

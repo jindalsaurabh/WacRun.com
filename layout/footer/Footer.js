@@ -13,14 +13,46 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20"> {t("common:InDemandTalent")}</h5>
             <p>React Native</p>
-            <p>Python</p>
-            <p>Front-end Developers</p>
-            <p>Java Developers</p>
-            <p>UX Designers</p>
-            <p>UI Designers</p>
-            <p>Dev Ops</p>
-            <p>Cloud Architects</p>
-
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">React Native</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">Python</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">Front-end Developers</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">Java Developers</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">UX Designers</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">UI Designers</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">Dev Ops</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="https://clients.wacrun.com/">
+                <a className="link">Cloud Architects</a>
+              </Link>
+            </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">{t("common:About")}</h5>
@@ -32,12 +64,14 @@ const Footer = () => {
                 <a className="link">{t("common:FAQs")}</a>
               </Link>
             </p>
-             <p>
+{/*
+            <p>
               {t("common:Blog")}
             </p>
             <p>
               {t("common:Careers")}
             </p>
+*/}
             <p>
               Email: <Link href="mailto: contact@wacrun.com">
                 <a className="link"> contact@wacrun.com</a>
@@ -80,10 +114,10 @@ const Footer = () => {
               </Link>
             </p>
             <p>
-              <Link href="https://www.wacrun.com">
+            <Link href="mailto: contact@wacrun.com">
                 <a className="link">{t("common:WriteforUs")}</a>
               </Link>
-            </p>
+              </p>
           </Col>
         </Row>
         <div className="f4-bottom-bar">
