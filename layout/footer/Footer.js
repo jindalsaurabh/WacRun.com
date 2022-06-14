@@ -59,6 +59,9 @@ const Footer = () => {
               {t("common:AboutUs")}
             </p>
             <p>
+              {t("common:AboutUsText")}
+            </p>
+            <p>
               <Link href="/faqs">
                 <a className="link">{t("common:FAQs")}</a>
               </Link>
