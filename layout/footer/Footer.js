@@ -12,7 +12,6 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20"> {t("common:InDemandTalent")}</h5>
-            <p>React Native</p>
             <p>
               <Link href="https://clients.wacrun.com/">
                 <a className="link">React Native</a>
