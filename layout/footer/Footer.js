@@ -56,9 +56,6 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">{t("common:About")}</h5>
             <p>
-              {t("common:AboutUs")}
-            </p>
-            <p>
               {t("common:AboutUsText")}
             </p>
             <p>
